@@ -3,7 +3,11 @@
     "version": "1.0.0",
     "description": "webrtc-videochat",
     "author": "Francisco",
-    "license": "BSD-2-Clause",
+    "license": "MIT",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
     "dependencies": {
         "bootstrap": "^4.4.1",
         "node-static": "^0.7.11",
