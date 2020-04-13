@@ -2,7 +2,8 @@
 var WebSocketServer = require('ws').Server;
 
 //Cria o websocket server na porta 9090
-var wss = new WebSocketServer({port: 9090});
+var port = process.env.PORT || 9090;
+var wss = new WebSocketServer({port});
 
 //Todos os usuarios conectados no servidor
 var users = {};

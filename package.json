@@ -4,7 +4,7 @@
     "description": "webrtc-videochat",
     "author": "Francisco",
     "license": "MIT",
-    "main": "server.js",
+    "main": "index.html",
     "scripts": {
         "start": "node server.js"
     },
